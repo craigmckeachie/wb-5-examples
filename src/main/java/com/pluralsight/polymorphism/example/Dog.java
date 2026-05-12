@@ -7,4 +7,8 @@ public class Dog extends Animal {
         System.out.println("Bark! Bark!");
     }
 
+    public void sniffButt(){
+        System.out.println("The dog is doing a 360-degree scent check.");
+    }
+
 }
