@@ -7,4 +7,8 @@ public class Bird extends Animal{
         System.out.println("Tweet, Tweet");
     }
 
+    public void fly(){
+        System.out.println("Flap, flap, flap");
+    }
+
 }

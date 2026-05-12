@@ -10,13 +10,17 @@ public class App {
         animals.add(new Cat());
         animals.add(new Bird());
 
-
         for (Animal animal: animals){
             animal.speak();
 
             if (animal instanceof Dog){
                 Dog dog = (Dog) animal;
                 dog.sniffButt();
+            }
+
+            if (animal instanceof Bird){
+                Bird bird = (Bird) animal;
+                bird.fly();
             }
 
 
