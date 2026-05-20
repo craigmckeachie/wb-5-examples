@@ -1,6 +1,6 @@
 package com.pluralsight.polymorphism.example;
 
-public class Bird extends Animal{
+public class Bird extends Animal implements Flyable{
 
     @Override
     public void speak() {
